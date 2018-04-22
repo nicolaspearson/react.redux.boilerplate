@@ -1,8 +1,12 @@
 {
   "name": "typescript-react-redux-boilerplate",
   "version": "1.0.0",
-  "private": true,
-  "description": "A frontend boilerplate with React, Redux and Typescript",
+  "description": "This is a React Boilerplate project, built using Typescript, React, and Redux.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolaspearson/react.redux.boilerplate"
+  },
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +14,16 @@
     "build": "webpack -p --progress --colors",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
   },
-  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.3.0"
+  },
   "devDependencies": {
     "@types/classnames": "2.2.3",
     "@types/history": "4.6.2",
@@ -47,15 +60,5 @@
     "webpack-cleanup-plugin": "^0.5.1",
     "webpack-cli": "^2.0.15",
     "webpack-dev-server": "^3.1.3"
-  },
-  "dependencies": {
-    "classnames": "^2.2.5",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-redux": "^5.0.7",
-    "react-router": "^4.2.0",
-    "react-router-redux": "^5.0.0-alpha.9",
-    "redux": "^3.7.2",
-    "redux-actions": "^2.3.0"
   }
 }

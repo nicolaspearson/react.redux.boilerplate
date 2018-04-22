@@ -1,59 +1,60 @@
-# Frontend Boilerplate with React, Redux & TypeScript
+# README
 
-A bare minimum react-redux-webpack-typescript boilerplate with a TodoMVC example.
+This is a React Boilerplate project, built using Typescript, React, and Redux.
 
-Note that this project does not include **Server-Side Rendering**, **Testing Frameworks** and other stuff that makes the package unnecessarily complicated.
+_Note: This project does not include **Server-Side Rendering**, **Testing Frameworks** and other stuff that makes the package unnecessarily complicated._
 
-Ideal for creating React apps from the scratch.
+### Running the project
 
-## Contains
+1.  Run `npm install / yarn install`
+2.  Run `npm run build` to compile the typescript into the dist folder.
+3.  Run `npm start` to run the application.
+4.  Run `npm run prettier` to prettify the code.
 
-* [x] [Typescript](https://www.typescriptlang.org/) 2.7
-* [x] [React](https://facebook.github.io/react/) 16.3
-* [x] [Redux](https://github.com/reactjs/redux) 3.7
-* [x] [React Router](https://github.com/ReactTraining/react-router) 4.2
-* [x] [React Router Redux](https://github.com/reactjs/react-router-redux) 5
-* [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
-* [x] [TodoMVC example](http://todomvc.com)
+## Contribution Guidelines:
+
+I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
+
+### Pull Requests
+
+Here are some basic rules to follow to ensure timely addition of your request:
+
+1.  Match coding style (braces, spacing, etc.) This is best achieved using `CMD`+`Option`+`L` (Reformat code) on Mac (not sure for Windows) with Android Studio defaults.
+2.  If its a feature, bugfix, or anything please only change code to what you specify.
+3.  Please keep PR titles easy to read and descriptive of changes, this will make them easier to merge :)
+4.  Pull requests _must_ be made against `develop` branch. Any other branch (unless specified by the maintainers) will get rejected.
+5.  Check for existing [issues](https://github.com/nicolaspearson/android.favicoin/issues) first, before filing an issue.
+
+## Technologies used:
+
+### For the application
+
+* [Typescript 2.8](https://www.typescriptlang.org/)
+* [React 16.3](https://facebook.github.io/react/)
+* [Redux 3.7](https://github.com/reactjs/redux)
+* [React Router 4.2](https://github.com/ReactTraining/react-router)
+* [React Router Redux 5](https://github.com/reactjs/react-router-redux)
+* [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 
 ### Build tools
 
-* [x] [Webpack](https://webpack.github.io) 4
-  * [x] [Tree Shaking](https://medium.com/@Rich_Harris/tree-shaking-versus-dead-code-elimination-d3765df85c80)
-  * [x] [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
-* [x] [Typescript Loader](https://github.com/TypeStrong/ts-loader)
-* [x] [PostCSS Loader](https://github.com/postcss/postcss-loader)
-  * [x] [CSS next](https://github.com/MoOx/postcss-cssnext)
-  * [x] [CSS modules](https://github.com/css-modules/css-modules)
-* [x] [React Hot Loader](https://github.com/gaearon/react-hot-loader)
-* [x] [ExtractText Plugin](https://github.com/webpack/extract-text-webpack-plugin)
-* [x] [HTML Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin)
-* [x] [Prettier](https://github.com/prettier/prettier)
+* [Webpack 4](https://webpack.github.io)
+  * [Tree Shaking](https://medium.com/@Rich_Harris/tree-shaking-versus-dead-code-elimination-d3765df85c80)
+  * [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
+* [Typescript Loader](https://github.com/TypeStrong/ts-loader)
+* [PostCSS Loader](https://github.com/postcss/postcss-loader)
+  * [CSS next](https://github.com/MoOx/postcss-cssnext)
+  * [CSS modules](https://github.com/css-modules/css-modules)
+* [React Hot Loader](https://github.com/gaearon/react-hot-loader)
+* [ExtractText Plugin](https://github.com/webpack/extract-text-webpack-plugin)
+* [HTML Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin)
+* [Prettier](https://github.com/prettier/prettier)
 
-## Setup
+### Contribution guidelines
 
-```
-$ npm install
-```
+* Code reviews are done via pull requests
+* Never commit directly to develop, staging, or master
 
-## Running
-
-```
-$ npm start
-```
-
-## Build
-
-```
-$ npm run build
-```
-
-## Prettier
-
-```
-$ npm run prettier
-```
-
-# License
+## License
 
 MIT
